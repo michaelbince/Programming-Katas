@@ -1,13 +1,5 @@
-/**
- * Copyright 2024 American Well Systems
- * All rights reserved.
- * <p>
- * It is illegal to use, reproduce or distribute
- * any part of this Intellectual Property without
- * prior written authorization from American Well.
- */
 public class MatrixDiagonalSum {
-    private  int[][] matrix = {{1,2,3,4},
+    private final int[][] matrix = {{1,2,3,4},
                                {4,5,6,7},
                                {4,5,6,7},
                                {4,5,6,7}};

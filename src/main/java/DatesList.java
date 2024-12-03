@@ -5,8 +5,8 @@ import java.util.List;
 
 public class DatesList {
 
-    private List<LocalDate> dates = new ArrayList<>();
-    private DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    private final List<LocalDate> dates = new ArrayList<>();
+    private final DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     public List<LocalDate> fillDateList(){
         dates.add(LocalDate.parse("01/01/2023", dateFormatter));

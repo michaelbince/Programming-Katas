@@ -1,17 +1,8 @@
 import java.util.Arrays;
 import java.util.stream.Stream;
-
-/**
- * Copyright 2024 American Well Systems
- * All rights reserved.
- * <p>
- * It is illegal to use, reproduce or distribute
- * any part of this Intellectual Property without
- * prior written authorization from American Well.
- */
 public class PushAllTheZeros {
 
-  private int[] array = {1,0,2,0,3,0,4,0,5,6,7,8,0,10};
+  private final int[] array = {1,0,2,0,3,0,4,0,5,6,7,8,0,10};
 
   public int[] getArray(){
     return this.array;

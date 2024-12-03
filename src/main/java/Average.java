@@ -1,11 +1,3 @@
-/**
- * Copyright 2024 American Well Systems
- * All rights reserved.
- * <p>
- * It is illegal to use, reproduce or distribute
- * any part of this Intellectual Property without
- * prior written authorization from American Well.
- */
 public class Average {
 
   public float calculateAverage(float[] numbers){
@@ -16,8 +8,8 @@ public class Average {
       throw new IllegalArgumentException("Array must not be empty");
     }
 
-    for(int index = 0; index < numbers.length; index++){
-      sum += numbers[index];
+    for (float number : numbers) {
+      sum += number;
     }
     average = sum/numbers.length;
     return average;

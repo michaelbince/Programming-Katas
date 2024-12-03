@@ -1,17 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Copyright 2024 American Well Systems
- * All rights reserved.
- * <p>
- * It is illegal to use, reproduce or distribute
- * any part of this Intellectual Property without
- * prior written authorization from American Well.
- */
 public class SortingList {
 
-   private List<Integer> myList = new ArrayList<>();
+   private final List<Integer> myList = new ArrayList<>();
 
    public void fillList(){
        myList.add(6);

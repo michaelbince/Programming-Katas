@@ -1,11 +1,3 @@
-/**
- * Copyright 2024 American Well Systems
- * All rights reserved.
- * <p>
- * It is illegal to use, reproduce or distribute
- * any part of this Intellectual Property without
- * prior written authorization from American Well.
- */
 public class OrderAnArray {
 
   int[] array = {2,4,7,3,6,9};

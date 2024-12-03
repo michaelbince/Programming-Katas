@@ -3,8 +3,8 @@ import java.util.List;
 
 public class NumberSegregation {
 
-    private List<Integer>  oddNumberList = new ArrayList<>();
-    private List<Integer> evenNumberList = new ArrayList<>();
+    private final List<Integer>  oddNumberList = new ArrayList<>();
+    private final List<Integer> evenNumberList = new ArrayList<>();
 
     public List<Integer> getEvenNumberList() {
         return evenNumberList;

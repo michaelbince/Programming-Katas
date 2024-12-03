@@ -13,7 +13,7 @@ public class FindLinkElements {
             }
         }
         if(!brokenLinks.isEmpty()){
-            throw new RuntimeException("There are at least one broken link" + brokenLinks.toString());
+            throw new RuntimeException("There are at least one broken link" + brokenLinks);
         }
     }
 }

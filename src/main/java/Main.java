@@ -48,9 +48,9 @@ public class Main {
 
       System.out.println("Factorial");
       Factorial factorial = new Factorial();
-      System.out.println(factorial.factorialFor(5));
+      System.out.println(factorial.factorialFor(8));
       System.out.println("Factorial");
-      System.out.println(factorial.recursionFactorialFor(5));
+      System.out.println(factorial.recursionFactorialFor(8));
 
       System.out.println("Sorting list");
       SortingList sortingList = new SortingList();

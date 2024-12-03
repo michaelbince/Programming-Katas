@@ -1,14 +1,6 @@
-/**
- * Copyright 2024 American Well Systems
- * All rights reserved.
- * <p>
- * It is illegal to use, reproduce or distribute
- * any part of this Intellectual Property without
- * prior written authorization from American Well.
- */
 public class LettersVerification {
 
-  private String name = "olo";
+  private final String name = "olo";
 
   public Boolean verifyFirstAndLastLetterAreSame(String name){
     if (name.isEmpty()){
